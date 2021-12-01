@@ -4,25 +4,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport"/>
   <meta charset = "UTF-8">
   <title>Chicago Health Disparities Center | Home</title>
-  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="style/reset.css"/>
+  <link rel="stylesheet" href="style/style.css"/>
 </head>
-</body>
-<header>
-		
-			<h1>Chicago Health Disparities Center</h1>
-		<div id="page">
+<body>
+  <header>
+  <h1>Chicago Health Disparities Center</h1>
+
 			<nav>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="completed_project.html">Work</a></li>
-					<li><a href="current_projects.html">Projects</a></li>
-					<li><a href="research_team.html">Team</a></li>
-					<li><a href="spotlight.html">News</a></li>
+					<button class="dropbtn"><a href="#">Home</a></button>
+					<button class="dropbtn"><a href="about.html">About Us</a></button>
+					<button class="dropbtn"><a href="completed_project.html">Work</a></button>
+					<div class="dropdown">
+					  <button class="dropbtn">Current Projects</button>
+					  <div class="dropdown-content">
+					    <a href="current_projects.html">Projects</a>
+					    <a href="research_team.html">Team</a>
+					  </div>
+					</div>
+					<button class="dropbtn"><a href="spotlight.html">News</a></button>
 				</ul>
 			</nav>
+  </header>
+  <div id="page">
+   <section id="mission">
+		
+			<h2>Our Mission</h2>
+			
+			<p>The mission of the Chicago Health Disparities Center (CHDC) is to engage people with serious mental illness in community-based participatory research efforts that will reduce racial healthcare inequities and promote well-being.</p>
 
-		</header>
-		</div> <!-- #page END-->
+		</section>
+		
+		<section id="find_us">
+		
+			<h2>Find Us</h2>
+			
+			<p>The Chicago Health Disparities Center is a federally funded research center at the Illinois Institute of Technology.</p>
+
+			<h3>Address</h3>
+			<p>3424 S. State Street<br />
+			First Floor<br />
+			Chicago, IL 60616</p>
+		
+		</section>
+
+		<footer>
+
+			<p>&copy;2021 Chicago Health Disparities Center</p>
+		
+		</footer>
+  </div> <!-- #page END-->
 </body>
 </html>
