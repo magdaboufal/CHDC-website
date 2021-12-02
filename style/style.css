@@ -69,9 +69,9 @@ strong {
 .button-spotlight{
 	border: none;
 	display: inline-block;
-	height: 50px;
-	width: auto;
-	margin-left: 50%;
+	height: 100px;
+	width: 100%;
+	background-color: white;
 
 }
 .button-spotlight a{
@@ -117,7 +117,6 @@ strong {
 .image {
   display: block;
   width: 100%;
-  height: auto;
 }
 
 .overlay {
@@ -139,7 +138,7 @@ strong {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -172,5 +171,16 @@ strong {
 }	
 img{
 	width:100%;
+}
+.person{
+	margin: 30px;
+	display: block;
+	width: 100%;
+}
+.person img{
+	width: 50%;
+}
+.text{
+	font-size: 16px;
 }
 }
