@@ -95,6 +95,22 @@ strong {
 	float: left;
 	margin: 10px;
 }
+.content1 ul{
+	display: grid;
+	grid-template-rows: 1fr;
+}
+.content1 ul li{
+	width: 100%;
+	height: 75px;	
+}
+.content1 ul li a{
+	text-decoration: none;
+}
+.content1 ul li:hover{
+	background-color:#FF0000;
+	opacity:0.6;
+	color: white;
+}
 .header-inspiring_change{
 	width: 100%;
 	height: 600px;
