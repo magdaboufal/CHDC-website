@@ -67,7 +67,7 @@ strong {
 	background-image: url("../images/news.jpg");
 }
 .button-spotlight{
-	border: none;
+	text-align: center;
 	display: inline-block;
 	height: 100px;
 	width: 100%;
