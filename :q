@@ -1,0 +1,37 @@
+Add text to the about page and style it
+
+# Immetti il messaggio di commit per le modifiche. Le righe che iniziano
+# con '#' saranno ignorate e un messaggio vuoto interromperà il commit.
+#
+# rebase interattivo in corso su 242087f
+# Ultimo comando eseguito (1 comando eseguito):
+#    pick 87bf9cb Add text to the about page and style it
+# Nessun comando rimanente.
+# Attualmente stai eseguendo il rebase del branch 'main' su '242087f'.
+#
+# Modifiche di cui verrà eseguito il commit:
+#	modificato:             about.html
+#	modificato:             style/style.css#
+add about page content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
