@@ -7,6 +7,10 @@ html {
 h2, ul, p {
   padding-bottom: 1.2em; /* 24px / 20 = 1.2 */
 }
+header{
+	text-align:center;
+	margin: auto;
+}
 
 .person{
 	display: grid;
