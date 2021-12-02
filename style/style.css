@@ -15,8 +15,27 @@ header{
 }
 footer{
 	width: 100%;
-	display: flex;
 }
+footer ul li{
+	display: block;
+	float: left;
+}
+footer ul li pi{
+	margin: 10px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 strong {
   font-weight: bolder;
 }
@@ -199,5 +218,11 @@ img{
 }
 .text{
 	font-size: 16px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.text{ 
+	font-size: 10px
 }
 }
