@@ -13,16 +13,20 @@ header{
 	text-align:center;
 	margin: auto;
 }
+
 footer{
 	width: 100%;
 }
+
 footer ul li{
 	display: block;
 	float: left;
 }
+
 footer ul li pi{
 	margin: 10px;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -39,29 +43,40 @@ footer ul li pi{
 strong {
   font-weight: bolder;
 }
+
 #chdc-address{
-	width:50%;
+	width: 50%;
 	padding: 20px;
 	border: 5px;
 	border-color: white;
 }
+
 #chdc-photo{
 	width:50%;
 	padding: 20px;
 	border: 5px;
 	border-color: white;
 }
+
 .about {
   padding-top: 80px;
 }
 
-.quote {
-  font-size: 1.6em; /* 32 / 16 = 2 */
-  padding-left: 1em;
-  line-height: 1em;/* 32/32 = 1*/
+.about p {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+
+.about > .quote {
+  font-size: 1.25em; /*25 /20 = 1.25em*/
+  padding-left: 3em;
+  padding-right: 10em;
+  padding-top: 0;
+  line-height: 1.28em;/* 32/ 25 = 1.28*/
   color: #FF0000;
   font-style: italic;
   text-decoration: none;
+  padding-bottom: 50px;
 }
 
 .person{
@@ -70,6 +85,7 @@ strong {
 	width: 100%;
 	grid-template-columns: 1fr 2fr;
 }
+
 .person_name{
 	font-size: 1.5em;
 }
@@ -85,6 +101,7 @@ strong {
 	text-align: center;
 	background-image: url("../images/news.jpg");
 }
+
 .button-spotlight{
 	text-align: center;
 	display: inline-block;
@@ -94,14 +111,17 @@ strong {
 	padding: 20px;
 
 }
+
 .button-spotlight a{
 	text-decoration:none;
 }
+
 .button-spotlight:hover{
 	background-color:#FF0000;
 	opacity:0.6;
 
 }
+
 .header-team{
 	width: 100%;
 	height: 600px;
@@ -114,34 +134,41 @@ strong {
 	float: left;
 	margin: 10px;
 }
+
 .content1 ul{
 	display: grid;
 	grid-template-rows: 1fr;
 }
+
 .content1 ul li{
 	width: 100%;
-	height: 75px;	
+	height: 75px;
 }
+
 .content1 ul li a{
 	text-decoration: none;
 }
+
 .content1 ul li:hover{
 	background-color:#FF0000;
 	opacity:0.6;
 	color: white;
 }
+
 .header-inspiring_change{
 	width: 100%;
 	height: 600px;
 	text-align: center;
 	background-image: url("../images/current-project.jpg");
 }
+
 .header-bhl{
 	width: 100%;
 	height: 600px;
 	text-align: center;
 	background-image: url("../images/bhl.jpg");
 }
+
 /* image overlay */
 .container-spotlight {
   position: relative;
@@ -186,43 +213,62 @@ strong {
 /* end of image overlay */
 
 @media screen and (max-width: 960px) {
-.wrapper {
-	width: 100%;
-	margin: auto;
-}
-.content1{
-	width: 100%;
-	float: left;
-	margin: 10px;
-}
-#chdc-address{
-	width:100%;
-	padding: 20px;
-	border: 5px;
-	border-color: white;
-}
-#chdc-photo{
-	 visibility: hidden;
-	 position: absolute;
-}	
-img{
-	width:100%;
-}
-.person{
-	margin: 30px;
-	display: block;
-	width: 100%;
-}
-.person img{
-	width: 50%;
-}
-.text{
-	font-size: 16px;
-}
+
+  .wrapper {
+  	width: 100%;
+  	margin: auto;
+  }
+
+  .content1{
+  	width: 100%;
+  	float: left;
+  	margin: 10px;
+  }
+
+  #chdc-address{
+  	width:100%;
+  	padding: 20px;
+  	border: 5px;
+  	border-color: white;
+  }
+
+  #chdc-photo{
+  	 visibility: hidden;
+  	 position: absolute;
+  }
+
+  img{
+  	width:100%;
+  }
+
+  .person{
+  	margin: 30px;
+  	display: block;
+  	width: 100%;
+  }
+
+  .person img{
+  	width: 50%;
+  }
+
+  .text{
+  	font-size: 16px;
+  }
+
+  .about > .quote {
+    font-size: 24px;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
-.text{ 
-	font-size: 10px
-}
+
+  .text{
+  	font-size: 10px
+  }
+
+  .about > .quote {
+    font-size: 22px;
+    padding-right: 6em;
+  }
 }
