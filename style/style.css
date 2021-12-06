@@ -51,7 +51,10 @@ footer ul li pi {
   margin: auto;
 }
 
-.logo-text {
+.footerContainer {
+  height: auto;
+  background-color: #b3ddf2;
+  opacity: 0.8;
 }
 
 .fa {
@@ -92,7 +95,7 @@ strong {
 
 /*.about > .quote {
   font-size: 1.25em; /*25 /20 = 1.25em*/
-  /*padding-left: 3em;
+/*padding-left: 3em;
   padding-right: 10em;
   padding-top: 0;
   line-height: 1.28em; /* 32/ 25 = 1.28*/
