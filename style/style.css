@@ -14,12 +14,13 @@ h4 {
 
 h2,
 ul,
-p {
+p,
+.content1  {
   padding-bottom: 1.2em; /* 24px / 20 = 1.2 */
 }
 
-a {
-  color: #b3ddf2;
+h4 {
+  padding-bottom: 16px;
 }
 
 header {
@@ -48,7 +49,7 @@ footer ul li pi {
   width: 100%;
   display: flex;
   justify-content: center;
- 
+
 }
 
 .navbarTop {
@@ -95,7 +96,7 @@ strong {
   border-color: white;
 }
 #content {
-  overflow: hidden; 
+  overflow: hidden;
   height: 3em;
   line-height: 1em;
 }
