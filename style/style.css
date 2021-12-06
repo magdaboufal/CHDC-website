@@ -15,7 +15,7 @@ h4 {
 h2,
 ul,
 p,
-.content1  {
+.content1 {
   padding-bottom: 1.2em; /* 24px / 20 = 1.2 */
 }
 
@@ -49,7 +49,6 @@ footer ul li pi {
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 .navbarTop {
@@ -150,7 +149,6 @@ strong {
   content: no-close-quote;
 }
 
-
 .person {
   margin: 30px;
   display: grid;
@@ -208,7 +206,7 @@ strong {
   display: grid;
   grid-template-rows: 1fr;
   list-style: none;
-    padding: 0px;
+  padding: 0px;
 }
 
 .content1 ul li {
@@ -223,11 +221,10 @@ strong {
 .content1 ul li:hover {
   background-color: #ff0000;
   opacity: 0.6;
-
 }
 .content1 ul li a:hover {
   text-decoration: none;
-    color: white;
+  color: white;
 }
 
 .header-inspiring_change {
@@ -242,6 +239,11 @@ strong {
   height: 600px;
   text-align: center;
   background-image: url("../images/bhl.jpg");
+}
+
+.indexImage {
+  width: 100%;
+  height: auto;
 }
 
 /* image overlay */
@@ -291,7 +293,6 @@ strong {
 footer {
   padding-top: 80px;
 }
-
 
 @media screen and (max-width: 1320px) {
   .navbarTop {
