@@ -36,6 +36,10 @@ footer ul li pi {
   margin: 10px;
 }
 
+.home h2 {
+  padding-bottom: 0;
+}
+
 .centerFooter {
   width: 100%;
   display: flex;
