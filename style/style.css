@@ -88,12 +88,7 @@ strong {
   padding-right: 50px;
 }
 
-/*.about p {
-  margin-bottom: 0;
-  padding-bottom: 1em;
-}
-
-.about > .quote {
+/*.about > .quote {
   font-size: 1.25em; /*25 /20 = 1.25em*/
   /*padding-left: 3em;
   padding-right: 10em;
@@ -104,6 +99,10 @@ strong {
   text-decoration: none;
   padding-bottom: 50px;
 } */
+
+.about p {
+  margin-bottom: 0;
+}
 
 .quote {
   background: #f9f9f9;
@@ -117,6 +116,10 @@ strong {
   font-family: Spectral, serif;
 }
 
+.about > .quote {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
 .quote:before {
   color: #ff0000;
   content: open-quote;
