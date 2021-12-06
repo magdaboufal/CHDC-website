@@ -18,6 +18,10 @@ p {
   padding-bottom: 1.2em; /* 24px / 20 = 1.2 */
 }
 
+a {
+  color: #b3ddf2;
+}
+
 header {
   text-align: center;
   margin: auto;
@@ -273,8 +277,13 @@ strong {
 }
 /* end of image overlay */
 
-#about {
+#about,
+footer {
   padding-top: 80px;
+}
+
+#BHL {
+  background-color: white;
 }
 
 @media screen and (max-width: 1320px) {
@@ -282,6 +291,10 @@ strong {
     width: 100%;
     padding-left: 0;
   }
+}
+
+.completed-project .centerFooter {
+  background-color: #b3ddf2;
 }
 
 @media screen and (max-width: 960px) {
