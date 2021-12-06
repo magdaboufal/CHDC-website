@@ -45,7 +45,9 @@ footer ul li pi {
 }
 
 .navbarTop {
-  width: 1200px;
+  width: 1320px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin: auto;
 }
 
@@ -264,7 +266,7 @@ strong {
 }
 /* end of image overlay */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1320px) {
   .navbarTop {
     width: 100%;
   }
