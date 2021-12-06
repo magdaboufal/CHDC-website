@@ -48,8 +48,7 @@ footer ul li pi {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
 
 .navbarTop {
@@ -196,7 +195,6 @@ strong {
 
 .content1 {
   width: 47%;
-  float: left;
   margin: 10px;
 }
 
