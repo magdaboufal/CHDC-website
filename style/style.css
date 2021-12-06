@@ -288,6 +288,10 @@ strong {
 }
 /* end of image overlay */
 
+#home-image {
+  padding-bottom: 1.2em; /*24px*/
+}
+
 #about,
 footer {
   padding-top: 80px;
