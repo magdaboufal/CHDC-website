@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+      id="wixDesktopViewport"
+    />
     <meta charset="UTF-8" />
     <title>News | Chicago Health Disparities Center</title>
     <link rel="stylesheet" href="style/reset.css" />
@@ -12,6 +16,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -19,14 +27,29 @@
     ></script>
   </head>
   <body>
-
-    <nav class="navbar sticky-top navbar-light" style="background-color: #ffffff">
-      <a class="navbar-brand" href="contact_us.html">Contact Us</a>
+    <nav
+      class="navbar sticky-top navbar-light navbarTop"
+      style="background-color: #ffffff"
+    >
+      <a class="navbar-brand logo-text" href="contact_us.html">Contact Us</a>
     </nav>
     <header>
-      <h1>Chicago Health Disparities Center</h1>
-	  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
-      <div class="container-fluid">
+      <nav
+        class="navbar navbar-expand-lg navbar-light navbarTop"
+        style="background-color: #ffffff"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <div class="logo-text">
+              <img
+                src="images/NewLogo.jpeg"
+                width="100px"
+                height="auto"
+                class="img-overide"
+              />
+              Chicago Health Disparities Center
+            </div>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -38,8 +61,12 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <div
+            class="collapse navbar-collapse navbarTop"
+            id="navbarTogglerDemo02"
+          >
+            <ul class="navbar-nav me-auto mb-1 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html"
                   >Home</a
@@ -84,15 +111,12 @@
                       >Project 1: Inspiring Change</a
                     >
                   </li>
-				   <li>
-                    <a class="dropdown-item" href="#"
-                      >Project 2</a
-                    >
+                  <li>
+                    <a class="dropdown-item" href="#">Project 2</a>
                   </li>
-				    <li>
-                    <a class="dropdown-item" href="#"
-                      >Project 3</a>
-					</li>
+                  <li>
+                    <a class="dropdown-item" href="#">Project 3</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -106,12 +130,15 @@
         </div>
       </nav>
     </header>
-  
+
     <section class="wrapper" id="spotlight">
-     <div class="header-spotlight"> <!--content header-->
-        <h1>It is always good to stay up-to-date, especially with the health news</h1>
+      <div class="header-spotlight">
+        <!--content header-->
+        <h1>
+          It is always good to stay up-to-date, especially with the health news
+        </h1>
       </div>
-	  <h2>News Resources</h2>
+      <h2>News Resources</h2>
       <div class="container-spotlight">
         <img src="images/sonya-pat-iit-mag.jpg" alt="$" class="image" />
         <div class="overlay">
@@ -122,31 +149,55 @@
           </div>
         </div>
       </div>
-      <div class="button-spotlight"><a href="https://research.iit.edu/profile/faculty/among-ranks-initiated#:~:text=Among%20the%20Ranks%20of%20the%20Initiated%20Patrick%20Corrigan%2C,an%20Illinois%20Tech%20research%20associate%E2%80%94is%20a%20soul%20soldier."
-          target="_blank" >See the story here!</a>
-	  </div>
+      <div class="button-spotlight">
+        <a
+          href="https://research.iit.edu/profile/faculty/among-ranks-initiated#:~:text=Among%20the%20Ranks%20of%20the%20Initiated%20Patrick%20Corrigan%2C,an%20Illinois%20Tech%20research%20associate%E2%80%94is%20a%20soul%20soldier."
+          target="_blank"
+          >See the story here!</a
+        >
+      </div>
       <div class="container-spotlight">
         <img src="images/cdc.jpg" alt="$" class="image" />
         <div class="overlay">
-          <div class="text"> The Centers for Disease Control and Prevention (CDC) is the national public health agency of the United States. It is a United States federal agency, under the Department of Health and Human Services.
+          <div class="text">
+            The Centers for Disease Control and Prevention (CDC) is the national
+            public health agency of the United States. It is a United States
+            federal agency, under the Department of Health and Human Services.
           </div>
         </div>
-	  </div>
-	  <div class="button-spotlight">
-	    <a href="http://cdc.gov" target="_blank">Read the recent News from CDC!</a>
-	  </div>
-	  <div class="container-spotlight">
+      </div>
+      <div class="button-spotlight">
+        <a href="http://cdc.gov" target="_blank"
+          >Read the recent News from CDC!</a
+        >
+      </div>
+      <div class="container-spotlight">
         <img src="images/research.jpg" alt="$" class="image" />
         <div class="overlay">
-          <div class="text"> Illinois Tech—home of the country’s first industrial nuclear reactor and the nation’s first 
-		  functional microgrid—is known for advanced research that is moving the needle toward significant innovation. 
-		  </div>
+          <div class="text">
+            Illinois Tech—home of the country’s first industrial nuclear reactor
+            and the nation’s first functional microgrid—is known for advanced
+            research that is moving the needle toward significant innovation.
+          </div>
         </div>
       </div>
-      <div class="button-spotlight"><a href="https://www.iit.edu/research" target="_blank" >Current Research @IIT!</a> </div>
+      <div class="button-spotlight">
+        <a href="https://www.iit.edu/research" target="_blank"
+          >Current Research @IIT!</a
+        >
+      </div>
     </section>
     <footer>
-      <p>&copy;2021 Chicago Health Disparities Center</p>
+      <div>
+        <div class="centerFooter">
+          &copy;2021 Chicago Health Disparities Center
+        </div>
+        <div class="centerFooter">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

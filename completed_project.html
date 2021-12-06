@@ -16,6 +16,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -24,18 +28,28 @@
   </head>
   <body>
     <nav
-      class="navbar sticky-top navbar-light"
+      class="navbar sticky-top navbar-light navbarTop"
       style="background-color: #ffffff"
     >
-      <a class="navbar-brand" href="contact_us.html">Contact Us</a>
+      <a class="navbar-brand logo-text" href="contact_us.html">Contact Us</a>
     </nav>
     <header>
-      <h1>Chicago Health Disparities Center</h1>
       <nav
-        class="navbar navbar-expand-lg navbar-light"
+        class="navbar navbar-expand-lg navbar-light navbarTop"
         style="background-color: #ffffff"
       >
-        <div class="container-fluid">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <div class="logo-text">
+              <img
+                src="images/NewLogo.jpeg"
+                width="100px"
+                height="auto"
+                class="img-overide"
+              />
+              Chicago Health Disparities Center
+            </div>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -47,12 +61,20 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <div
+            class="collapse navbar-collapse navbarTop"
+            id="navbarTogglerDemo02"
+          >
+            <ul class="navbar-nav me-auto mb-1 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -61,13 +83,16 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                >Completed Projects</a>
+                >
+                  Completed Projects
+                </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a
                       class="dropdown-item active"
                       href="completed_project.html"
-                      >Project 1: BHL</a>
+                      >Project 1: BHL</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -78,12 +103,22 @@
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false">Current Projects
+                  aria-expanded="false"
+                >
+                  Current Projects
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="current_projects.html">Project 1: Inspiring Change</a></li>
-				  <li><a class="dropdown-item" href="#">Project 2</a></li>
-				  <li><a class="dropdown-item" href="#">Project 3</a></li>
+                  <li>
+                    <a class="dropdown-item" href="current_projects.html"
+                      >Project 1: Inspiring Change</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Project 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Project 3</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -99,58 +134,105 @@
     </header>
 
     <section class="wrapper">
-	 <div class="header-bhl">
+      <div class="header-bhl">
         <h1>
-       Promoting Healthy Lifestyle Behaviors to Address Obesity Related
-        Complications of African Americans with Severe Mental Illness Using Peer
-        Navigators
-      </h1>
-      <h3>(2016 &#8211; 2021)</h3>
+          Promoting Healthy Lifestyle Behaviors to Address Obesity Related
+          Complications of African Americans with Severe Mental Illness Using
+          Peer Navigators
+        </h1>
+        <h3>(2016 &#8211; 2021)</h3>
       </div>
       <h2>Behaviors for Healthy Lifestyles (BHL)</h2>
-	  <div class="content1">
+      <div class="content1">
         <h4>Summary</h4>
-		<p>The Behaviors for Healthy Lifestyles (BHL) program is designed to be
-        implemented in mental health settings to address issues of weight
-        management and physical inactivity among African Americans with serious
-        mental illness (SMI). It has been adapted from the existing MOVE! Manual
-        developed by the VA National Center for Health Promotion and Disease
-        Prevention. Adaptation was completed by a community based participatory
-        research (CBPR) team of African Americans with SMI and weight concerns
-        partnered with service providers and researchers. CBPR team efforts were
-        supported by a grant from the National Institute on Minority Health and
-        Health Disparities (NIMHD: MD010541-01). The CBPR team met regularly for
-        up to a year conducting qualitative research to complete an adaptation
-        of the MOVE! Manual that represents BHL perspectives and needs of
-        African Americans with SMI. In addition, the CBPR team adapted the
-        program to reflect female versus male preferences for BHL with an
-        administrative supplement from NIMHD. This latter adaptation also
-        considered how gender differences in trauma might impact BHL as it is
-        being implemented in an individual&#8217;s community.
+        <p>
+          The Behaviors for Healthy Lifestyles (BHL) program is designed to be
+          implemented in mental health settings to address issues of weight
+          management and physical inactivity among African Americans with
+          serious mental illness (SMI). It has been adapted from the existing
+          MOVE! Manual developed by the VA National Center for Health Promotion
+          and Disease Prevention. Adaptation was completed by a community based
+          participatory research (CBPR) team of African Americans with SMI and
+          weight concerns partnered with service providers and researchers. CBPR
+          team efforts were supported by a grant from the National Institute on
+          Minority Health and Health Disparities (NIMHD: MD010541-01). The CBPR
+          team met regularly for up to a year conducting qualitative research to
+          complete an adaptation of the MOVE! Manual that represents BHL
+          perspectives and needs of African Americans with SMI. In addition, the
+          CBPR team adapted the program to reflect female versus male
+          preferences for BHL with an administrative supplement from NIMHD. This
+          latter adaptation also considered how gender differences in trauma
+          might impact BHL as it is being implemented in an individual&#8217;s
+          community.
         </p>
-	  </div>
-	  <div class="content1">
-	  <h4>More Info</h4>
-        <p>This study is funded by the National Institute on Minority Health and
-        Health Disparities (NIMHD). For more information contact Project Lead,
-        Patrick Corrigan at <a href = "mailto:corrigan@iit.edu">corrigan@iit.edu</a>
+      </div>
+      <div class="content1">
+        <h4>More Info</h4>
+        <p>
+          This study is funded by the National Institute on Minority Health and
+          Health Disparities (NIMHD). For more information contact Project Lead,
+          Patrick Corrigan at
+          <a href="mailto:corrigan@iit.edu">corrigan@iit.edu</a>
         </p>
-	  </div>
-	  <div class="content1">
-	  <h4>Resource Materials</h4>
-		<ul>
-          <li><a href="manuals/BHL-Manual-Cohort-3-Final.pdf" target="_blank">BHL Program Manual</a></li>
-		  <li><a href="manuals/BHL-Workbook_Cohorts-2.3_2.19.2019_FINAL.pdf" target="_blank">BHL Program Workbook</a></li>
-	      <li><a href="manuals/BHL-Fidelity-for-Classes-1.26-and-Review-Classes-1.4_3.30.2018.pdf" target="_blank">BHL Classes Fidelity Measure</a></li>
-          <li><a href="manuals/Exercise-Fidelity-BHL_draft_3.30.2018.pdf" target="_blank">BHL Exercise Fidelity Measure</a></li>
-	      <li><a href="manuals/PN-BHL-Manual.pdf" target="_blank">BHL Peer Navigator Manual</a></li>
-	      <li><a href="manuals/PN-BHL-Workbook.pdf" target="_blank">BHL Peer Navigator Workbook</a></li>
-          <li><a href="manuals/PN-Toolkit-for-BHL.Final-1.pdf" target="_blank">BHL Peer Navigator Supervision Toolkit</a></li>
-		</ul>
-	  </div>
-	  <footer>
-      <p>&copy;2021 Chicago Health Disparities Center</p>
-    </footer>
+      </div>
+      <div class="content1">
+        <h4>Resource Materials</h4>
+        <ul>
+          <li>
+            <a href="manuals/BHL-Manual-Cohort-3-Final.pdf" target="_blank"
+              >BHL Program Manual</a
+            >
+          </li>
+          <li>
+            <a
+              href="manuals/BHL-Workbook_Cohorts-2.3_2.19.2019_FINAL.pdf"
+              target="_blank"
+              >BHL Program Workbook</a
+            >
+          </li>
+          <li>
+            <a
+              href="manuals/BHL-Fidelity-for-Classes-1.26-and-Review-Classes-1.4_3.30.2018.pdf"
+              target="_blank"
+              >BHL Classes Fidelity Measure</a
+            >
+          </li>
+          <li>
+            <a
+              href="manuals/Exercise-Fidelity-BHL_draft_3.30.2018.pdf"
+              target="_blank"
+              >BHL Exercise Fidelity Measure</a
+            >
+          </li>
+          <li>
+            <a href="manuals/PN-BHL-Manual.pdf" target="_blank"
+              >BHL Peer Navigator Manual</a
+            >
+          </li>
+          <li>
+            <a href="manuals/PN-BHL-Workbook.pdf" target="_blank"
+              >BHL Peer Navigator Workbook</a
+            >
+          </li>
+          <li>
+            <a href="manuals/PN-Toolkit-for-BHL.Final-1.pdf" target="_blank"
+              >BHL Peer Navigator Supervision Toolkit</a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer>
+        <div>
+          <div class="centerFooter">
+            &copy;2021 Chicago Health Disparities Center
+          </div>
+          <div class="centerFooter">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+        </div>
+      </footer>
     </section>
   </body>
 </html>
