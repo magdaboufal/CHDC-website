@@ -272,6 +272,7 @@ strong {
 @media screen and (max-width: 1320px) {
   .navbarTop {
     width: 100%;
+    padding-left: 0;
   }
 }
 
